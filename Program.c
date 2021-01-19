@@ -13,7 +13,7 @@ int main(){
 }
 
 
-2. ASCII program using scanf function
+//2. ASCII program using scanf function
 
 #include <stdio.h> 
 int main() {   
@@ -107,6 +107,60 @@ void main(){
    printf("Area of the circle = %d", area) ;
 }
 
+//EXAMPLE 7  PROGRAM FOR C PRINTF() FUNCTION:
+
+#include <stdio.h>
+int main()
+{
+   char ch = 'A';
+   char str[20] = "THE  P ";
+   float flt = 10.234;
+   int no = 150;
+   double dbl = 20.123456;
+   printf("Character is %c \n", ch);
+   printf("String is %s \n" , str);
+   printf("Float value is %f \n", flt);
+   printf("Integer value is %d\n" , no);
+   printf("Double value is %lf \n", dbl);
+   printf("Octal value is %o \n", no);
+   printf("Hexadecimal value is %x \n", no);
+   return 0;
+}
 
 
+//Example 7 printf function program
+
+#include<stdio.h>
+int main() 
+{
+
+ int rollnum = 1234;
+ char name[10] = "program", gender = 'M';
+ float height = 4.700;
+    
+    printf("Roll no :-   %d  \n",rollnum);
+    printf("Name :-  %s \n", name);
+    printf("Gender :- %c  \n", gender);
+    printf("Height :-  %f  \n", height);
+
+    return 0;
+
+}
+
+// C Program to Print an Integer (Entered by the User)
+
+#include <stdio.h>
+int main() {   
+    int number;
+   
+    printf("Enter an integer: ");  
+    
+    // reads and stores input
+    scanf("%d", &number);
+
+    // displays output
+    printf("You entered: %d", number);
+    
+    return 0;
+}
 
