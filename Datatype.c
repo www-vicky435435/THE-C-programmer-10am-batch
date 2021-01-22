@@ -126,3 +126,7 @@ int main()
    printf("Sum of the entered numbers: %d", num3);
    return 0;
 }
+
+
+
+
